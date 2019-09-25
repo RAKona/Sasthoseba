@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#4ab182"
+    android:weightSum="3"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+        <Button
+            android:id="@+id/mainb1"
+            android:layout_width="match_parent"
+            android:background="#4ab182"
+            android:text="ঔষধ নির্দেশিকা"
+            android:textColor="#121111"
+            android:textSize="40sp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/mainb2"
+            android:layout_width="match_parent"
+            android:background="#62a78f"
+            android:padding="5dp"
+            android:text="ডাক্তারের পরামর্শ "
+            android:textSize="40sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            />
+
+
+
+        <Button
+            android:id="@+id/mainb3"
+            android:layout_width="match_parent"
+            android:background="#4ab182"
+            android:padding="5dp"
+            android:text="ভেষজ ঔষধ"
+            android:textSize="40sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
+
+
+
